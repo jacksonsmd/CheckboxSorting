@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CheckboxSorting</title>
+	<link media="all" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<main id="main" role="main">
+			<h1><span>CheckboxSorting</span></h1>
+			<div data-checkbox-sort="true">
+				<div>
+					<label for="id1">
+						<input id="id1" type="checkbox" data-sort-id="aaa">
+						<span class="fake-input"></span>
+    					<span class="fake-label">Content #1</span>
+					</label>
+				</div>
+				<div>
+					<label for="id2">
+						<input id="id2" type="checkbox" data-sort-id="bbb">	
+						<span class="fake-input"></span>
+    					<span class="fake-label">Content #2</span>
+					</label>				
+				</div>
+				<div>
+					<label for="id3">
+						<input id="id3" type="checkbox" data-sort-id="ccc">
+						<span class="fake-input"></span>
+    					<span class="fake-label">Content #3</span>
+					</label>
+				</div>
+			</div>
+			<div>
+				<div class="post" data-sort-id="aaa">
+					<div class="image">
+						<img src="images/image01.jpg" height="200" width="285" alt="image description">
+					</div>
+					<div class="holder">
+						<h2>Content #1</h2>
+						<p>Consectetur adipisicing elit. Rerum aut quam quis voluptatibus sed saepe nisi voluptates! Voluptates, eligendi.</p>
+					</div>
+				</div>
+				<div class="post" data-sort-id="aaa">
+					<div class="image">
+						<img src="images/image02.jpg" height="200" width="285" alt="image description">
+					</div>
+					<div class="holder">
+						<h2>Content #1</h2>
+						<p>Consectetur adipisicing elit. Rerum aut quam quis voluptatibus sed saepe nisi voluptates! Voluptates, eligendi.</p>
+					</div>
+				</div>
+				<div class="post" data-sort-id="bbb">
+					<div class="image">
+						<img src="images/image03.jpg" height="200" width="285" alt="image description">
+					</div>
+					<div class="holder">
+						<h2>Content #2</h2>
+						<p>Consectetur adipisicing elit. Rerum aut quam quis voluptatibus sed saepe nisi voluptates! Voluptates, eligendi.</p>
+					</div>
+				</div>
+				<div class="post" data-sort-id="ccc">
+					<div class="image">
+						<img src="images/image04.jpg" height="200" width="285" alt="image description">
+					</div>
+					<div class="holder">
+						<h2>Content #3</h2>
+						<p>Consectetur adipisicing elit. Rerum aut quam quis voluptatibus sed saepe nisi voluptates! Voluptates, eligendi.</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.main.js"></script>
+</body>
+</html>
